@@ -4,6 +4,8 @@ A tested, modular pipeline for extracting pitch–intensity coordination
 metrics and ToBI-style prosodic classifications from chimpanzee field
 recordings, developed for the Gombe vocal development analysis.
 
+![alt text](path/to/image.png)
+
 ## Features
 
 - **Memory-safe audio handling.** Long field recordings (30+ minutes) are
