@@ -76,7 +76,7 @@ the Results.
 
 If you use this code, please cite the paper it was written for:
 
-Michlich, J. (2026). Pitch–intensity coordination in wild chimpanzee (Pan troglodytes schweinfurthii) vocalizations: a robust within-call pattern and inconclusive evidence for an ontogenetic trend. [preprint/ journal, DOI to be added].
+Michlich, J.M. (2026). Pitch–intensity coordination in wild chimpanzee (Pan troglodytes) vocalizations: a robust within-call pattern, not an ontogenetic one. [preprint/ journal, DOI to be added].
 
 ### This pipeline builds directly on the following tools, frameworks, and data:
 
