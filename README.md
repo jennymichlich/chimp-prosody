@@ -1,4 +1,4 @@
-# chimp_prosody
+# chimp-prosody
 
 A tested, modular pipeline for extracting pitch–intensity coordination
 metrics and ToBI-style prosodic classifications from chimpanzee field
