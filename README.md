@@ -71,3 +71,16 @@ details. This does not affect the paper's primary result (pitch-intensity
 covariation, which does not depend on pitch-accent classification at all)
 — it applies only to the secondary ToBI-category distribution reported in
 the Results.
+
+## Citations
+
+If you use this code, please cite the paper it was written for:
+
+Michlich, J. (2026). Pitch–intensity coordination in wild chimpanzee (Pan troglodytes schweinfurthii) vocalizations: a robust within-call pattern and inconclusive evidence for an ontogenetic trend. [preprint/ journal, DOI to be added].
+
+### This pipeline builds directly on the following tools, frameworks, and data:
+
+1. Boersma, P., & Weenink, D. (2023). Praat: doing phonetics by computer [Computer program]. http://www.praat.org/
+2. Jadoul, Y., Thompson, B., & de Boer, B. (2018). Introducing Parselmouth: A Python interface to Praat. Journal of Phonetics, 71, 1-15. https://doi.org/10.1016/j.wocn.2018.07.001
+3. Beckman, M. E., & Hirschberg, J. (1994). The ToBI annotation conventions. Manuscript, Ohio State University.
+4. Plooij, F. X., van de Rijt-Plooij, H., Fischer, M., Wilson, M. L., & Pusey, A. (2015). An archive of longitudinal recordings of the vocalizations of adult Gombe chimpanzees. Scientific Data, 2(1). (Data: Dryad, https://doi.org/10.5061/dryad.5tq80)
