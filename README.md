@@ -1,10 +1,12 @@
-# chimp-prosody
-Pitch–intensity coordination pipeline for chimpanzee vocalizations, developed for the Gombe vocal development study.
+# chimp_prosody
+
 A tested, modular pipeline for extracting pitch–intensity coordination
 metrics and ToBI-style prosodic classifications from chimpanzee field
 recordings, developed for the Gombe vocal development analysis.
 
-![Three separate calls with ToBI-style pitch-accent and boundary-tone classification](chimp-prosody/three_calls_example.png)
+![Three separate calls with ToBI-style pitch-accent and boundary-tone classification](images/three_calls_example.png)
+
+*Three separate calls (infant subject), showing the full pipeline: spectrogram (top), pitch contour with each call's pitch-accent/boundary-tone classification (middle), and intensity with peak markers (bottom).*
 
 ## Features
 
@@ -28,6 +30,12 @@ recordings, developed for the Gombe vocal development analysis.
   constructed to have a known correct classification. This gives the
   classification logic a layer of verification beyond visual/manual
   spot-checks.
+
+  Pitch tracking itself was also validated against a stratified random
+  sample of real segments, checked visually against their spectrograms:
+
+  ![Pitch-tracking validation grid showing accurate, ambiguous, and problematic cases](images/pitch_tracking_validation_grid.png)
+
 - **Validated against the original analysis.** Re-running this pipeline on
   a full subject recording (Gilka) reproduces the originally reported
   results exactly: 148 segments, 65.2% mid-to-final covariation among
@@ -61,6 +69,13 @@ timeline rather than each tape restarting at time 0.
 python -m pytest chimp_prosody/tests/ -v
 ```
 
+## A denser example
+
+For a busier, real-world case, here are six consecutive bouts from a single
+subject with every detected voiced contour labeled (28 segments total):
+
+![Six bouts with every detected voiced contour labeled](images/six_bouts_dense_example.png)
+
 ## Note on the bitonal-accent categories
 
 The rarer, compound pitch-accent categories (H+!H\*, H\*!H\*) are detected
@@ -73,6 +88,7 @@ details. This does not affect the paper's primary result (pitch-intensity
 covariation, which does not depend on pitch-accent classification at all)
 — it applies only to the secondary ToBI-category distribution reported in
 the Results.
+
 
 ## Citations
 
