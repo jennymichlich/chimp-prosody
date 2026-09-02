@@ -4,7 +4,7 @@ A tested, modular pipeline for extracting pitch–intensity coordination
 metrics and ToBI-style prosodic classifications from chimpanzee field
 recordings, developed for the Gombe vocal development analysis.
 
-![Example of pipeline labeling on three short chimpanzee bouts.](path/to/three_calls_example.png)
+![Three separate calls with ToBI-style pitch-accent and boundary-tone classification](chimp-prosody/three_calls_example.png)
 
 ## Features
 
