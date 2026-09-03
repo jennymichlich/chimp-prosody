@@ -4,7 +4,7 @@ A tested, modular pipeline for extracting pitch–intensity coordination
 metrics and ToBI-style prosodic classifications from chimpanzee field
 recordings, developed for the Gombe vocal development analysis.
 
-![Three separate calls with ToBI-style pitch-accent and boundary-tone classification](three_calls_example.png)
+![Three separate calls with ToBI-style pitch-accent and boundary-tone classification](images/three_calls_example.png)
 
 *Three separate calls (infant subject), showing the full pipeline: spectrogram (top), pitch contour with each call's pitch-accent/boundary-tone classification (middle), and intensity with peak markers (bottom).*
 
@@ -34,7 +34,7 @@ recordings, developed for the Gombe vocal development analysis.
   Pitch tracking itself was also validated against a stratified random
   sample of real segments, checked visually against their spectrograms:
 
-  ![Pitch-tracking validation grid showing accurate, ambiguous, and problematic cases](pitch_tracking_validation_grid.png)
+  ![Pitch-tracking validation grid showing accurate, ambiguous, and problematic cases](images/pitch_tracking_validation_grid.png)
 
 - **Validated against the original analysis.** Re-running this pipeline on
   a full subject recording (Gilka) reproduces the originally reported
@@ -74,7 +74,7 @@ python -m pytest chimp_prosody/tests/ -v
 For a busier, real-world case, here are six consecutive bouts from a single
 subject with every detected voiced contour labeled (28 segments total):
 
-![Six bouts with every detected voiced contour labeled](six_bouts_dense_example.png)
+![Six bouts with every detected voiced contour labeled](images/six_bouts_dense_example.png)
 
 ## Note on the bitonal-accent categories
 
