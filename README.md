@@ -92,9 +92,11 @@ the Results.
 
 ## Citations
 
-If you use this code, please cite the paper it was written for:
+If you use this code, please cite the paper it was written for and zenodo software repository:
 
 Michlich, J.M. (2026). Pitch–intensity coordination in wild chimpanzee (Pan troglodytes) vocalizations: a robust within-call pattern, not an ontogenetic one. [preprint/ journal, DOI to be added].
+
+Jenny Michlich. (2026). jennymichlich/chimp-prosody: chimp-prosody v.1.0.0 (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.22544256
 
 ### This pipeline builds directly on the following tools, frameworks, and data:
 
